@@ -1,0 +1,6 @@
+body {
+    background-image: url('../../../public/images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background image remains fixed as the user scrolls */
+  }
