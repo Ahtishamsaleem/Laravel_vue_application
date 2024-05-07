@@ -12,6 +12,7 @@
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
     "bootstrap-vue": "^2.23.1",
+    "highcharts-vue": "^2.0.1",
     "vue": "^3.4.25",
     "vue-carousel": "^0.18.0",
     "vue-router": "^4.3.2",

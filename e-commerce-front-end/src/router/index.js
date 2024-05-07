@@ -8,6 +8,7 @@ import UpdateProfile from '../views/updateprofile.vue'
 import ChangePassword from '../views/change_password.vue'
 import ForgetPassword from '../views/forget_password.vue'
 import UpdatePassword from '../views/update_password.vue'
+import HighChart from '../views/high_chart.vue'
 
 const routes = [
     {
@@ -54,6 +55,11 @@ const routes = [
         path: '/update_password/:token',
         name: 'update_password',
         component: UpdatePassword
+    },
+    {
+        path: '/high_chart',
+        name: 'high_chart',
+        component: HighChart
     },
    
 ]

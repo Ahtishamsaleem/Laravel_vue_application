@@ -1,8 +1,16 @@
-<script setup>
+<script>
+import Header from '../components/header.vue'
 
+export default {
+  name: 'Home',
+  components: {
+    Header
+  },
+}
 </script>
 
 <template>
+  <Header />
   <div class="welcome">
     <nav>
       <ul>

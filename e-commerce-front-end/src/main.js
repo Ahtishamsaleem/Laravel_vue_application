@@ -13,6 +13,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import './assets/css/global.css';
+import HighchartsVue from 'highcharts-vue'; 
 // Vuetify
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
@@ -25,6 +26,7 @@ const vuetify = createVuetify({
 })
 
 const app = createApp(App)
+app.use(HighchartsVue) 
 app.use(router)
 app.use(vuetify)
 app.mount('#app')
